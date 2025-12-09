@@ -1,0 +1,19 @@
+# Base image
+FROM agrigorev/model-2025-hairstyle:v1
+
+WORKDIR /app
+
+# Copy code and model files
+COPY Hair_Classifier_Model.py /app/
+COPY hair_classifier_v1.onnx /app/
+COPY hair_classifier_v1.onnx.data /app/
+COPY app.py /app/
+
+# Install required packages
+RUN pip install --no-cache-dir numpy pillow onnxruntime \
+    && pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir fastapi uvicorn python-multipart
+
+EXPOSE 8000
+
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
