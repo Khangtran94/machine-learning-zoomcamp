@@ -44,7 +44,7 @@ Replace feature1, feature2, etc., with your input features.
 ### Docker App
 Open Docker Desktop then Docker Hub => find **khangtranvn/mental_health_prediction_app**
 
-![alt text](<Screenshot 2025-11-18 at 00.50.08.png>)
+<img width="2938" height="1098" alt="image" src="https://github.com/user-attachments/assets/7280b736-6b70-4398-8b1d-693d844a8737" />
 
 ## Dataset Overview:
 The data comes from the [Playground Series S4E11](https://www.kaggle.com/competitions/playground-series-s4e11/data) Kaggle competition.
