@@ -1,0 +1,29 @@
+# Summary
+
+<a href="https://www.youtube.com/watch?v=sSAqYSk7Br4&list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="images/thumbnail-5-08.jpg"></a>
+
+[Slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-5-model-deployment)
+
+
+## Notes
+In this chapter we learned these topics:
+- We learned how to save the model and load it to re-use it without running the previous code.
+- How to deploy the model in a web service.
+- How to create a virtual environment.
+- How to create a container and run our code in any operating systems.
+- How to deploy our code in a public web service and access it externally from outside a local computer.
+
+In the next chapter we will learn the algorithms such as Decision trees, Random forests and Gradient boosting as an alternative way of combining decision tress.
+
+Add notes from the video (PRs are welcome)
+
+
+<table>
+   <tr>
+      <td>⚠️</td>
+      <td>
+         The notes are written by the community. <br>
+         If you see an error here, please create a PR with a fix.
+      </td>
+   </tr>
+</table>
